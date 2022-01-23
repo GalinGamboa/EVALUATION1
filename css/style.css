@@ -60,7 +60,29 @@ box-sizing: border-box;
     color: rgb(230, 10, 10);
 }
 
+/* ================================== */
+/*           ESPECIALITES             */
+/* ================================== */
 
+.esp_box {
+    width: 100%;
+    max-width: 90%;
+    margin: auto;
+    padding: 3rem;
+    border-top: 6px solid #65d6a6;
+}
+
+.img_par_box img {
+   float: left;
+    
+   
+
+}
+
+.img_par_box p {
+   font-size: 1.3rem;
+
+}
 
 
 
@@ -84,6 +106,20 @@ box-sizing: border-box;
         font-size: 0.8rem;
     }
 
+    .img_par_box img {
+        display: block;
+        width: 100%;
+
+         
+        
+     
+     }
+     
+     .img_par_box p {
+        display: block;
+        font-size: 1rem;
+     
+     }
 
     
     
