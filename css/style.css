@@ -35,7 +35,13 @@ box-sizing: border-box;
     margin-bottom: 1rem;
     background-color: burlywood;
     padding: 0;
+    
 
+}
+
+#intro,
+#menu {
+    border-top: 6px solid #65d6a6;
 }
 
 
@@ -66,7 +72,6 @@ box-sizing: border-box;
 
 .esp_box {
     width: 100%;
-    max-width: 90%;
     margin: auto;
     padding: 3rem;
     border-top: 6px solid #65d6a6;
@@ -74,18 +79,14 @@ box-sizing: border-box;
 
 .img_par_box img {
    float: left;
-    
-   
 
 }
 
 .img_par_box p {
+   text-align: justify;
    font-size: 1.3rem;
 
 }
-
-
-
 
 /* ================================== */
 /*           MEDIA QUERIS             */
@@ -109,17 +110,13 @@ box-sizing: border-box;
     .img_par_box img {
         display: block;
         width: 100%;
-
-         
-        
      
-     }
+    }
      
      .img_par_box p {
         display: block;
         font-size: 1rem;
-     
-     }
+    }
 
     
     
