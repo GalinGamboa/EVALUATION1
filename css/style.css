@@ -1,0 +1,90 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* ================================== */
+/*            HEADER                  */
+/* ================================== */
+
+.jumbotron {
+    margin: 0;
+    padding: 1.5rem;
+    background:  url(/images/wallpaper/img3.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.box-nav {
+    height: 300px;
+}
+
+.box-ul {
+    height: 300px;
+}
+
+
+/* ================================== */
+/*          CAROUSEL                */
+/* ================================== */
+
+.box-imgs{
+    box-shadow: 10px 10px 5px rgb(145, 142, 142); 
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: burlywood;
+    padding: 0;
+
+}
+
+
+/* ================================== */
+/*          SECCTION MENU             */
+/* ================================== */
+
+.box-menu {
+    background-color: bisque;
+    width: 70%;
+    padding: 2rem;
+    /*background: url(/images/box-menu.jpg);*/
+}
+
+.box-menu>.title,
+.box-menu>.sub-title{
+    color: brown;
+}
+
+.box-menu>.title:hover,
+.box-menu>.sub-title:hover {
+    color: rgb(230, 10, 10);
+}
+
+
+
+
+
+
+/* ================================== */
+/*           MEDIA QUERIS             */
+/* ================================== */
+
+@media ( max-width:768px) {
+    
+    #intro {
+        width : 90% !important;
+    }
+    .box-menu>.title {
+        font-size: 1.5rem;
+    }
+    .box-menu>.sub-title{
+        font-size: 1rem;
+    }
+    .box-menu>p {
+        font-size: 0.8rem;
+    }
+
+
+    
+    
+    }

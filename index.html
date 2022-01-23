@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restautant Marcelita</title>
+
+    <!--   icons  CDN  bootstrap  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <!--   icons   fontawesome   -->
+    <script src="https://kit.fontawesome.com/8835e38367.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ================================== -->
+    <!--             HEADER                 -->
+    <!-- ================================== -->
+    <header>
+       
+        <nav class=" jumbotron navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logos/logo1.png " width="280px" alt="">
+                </a>
+                <button 
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class=" box-nav collapse navbar-collapse "  id="navbarSupportedContent">
+                    <ul class="box-ul navbar-nav ms-auto fs-6 fw-bold  ">    <!-- me  mx  margin et padding-->
+                        <li class="navbar-item">
+                            <a class="nav-link" href="#">
+                                <img src="images/icons/accueil.png" width="24px" alt=""> 
+                                Accueil
+                            </a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="#nous">
+                                <img src="images/icons/nous.png" width="24px" alt=""> 
+                                Nous
+                            </a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="#menu">
+                                <img src="images/icons/menu.png" width="24px" alt="">
+                                Menus
+                            </a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="#">
+                                <img src="images/icons/galeria1.png" width="28px" alt="">
+                                Galery
+                            </a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="#">
+                                <img src="images/icons/nous-contacter.png" width="24px" alt="">
+                                Nous contacter
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ================================== -->
+    <!--             CAROUSEL               -->
+    <!-- ================================== -->
+    <section id="nous">
+        <div class="container mt-2">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-10 box-imgs">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button 
+                                type="button" 
+                                data-bs-target="#carouselExampleIndicators" 
+                                data-bs-slide-to="0" 
+                                class="active" 
+                                aria-current="true" 
+                                aria-label="Slide 1">
+                            </button>
+                            <button 
+                                type="button" 
+                                data-bs-target="#carouselExampleIndicators" 
+                                data-bs-slide-to="1" 
+                                aria-label="Slide 2">
+                            </button>
+                            <button 
+                                type="button" 
+                                data-bs-target="#carouselExampleIndicators" 
+                                data-bs-slide-to="2" 
+                                aria-label="Slide 3">
+                            </button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/image1.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/image2.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/image3.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button 
+                            class="carousel-control-prev" 
+                            type="button" 
+                            data-bs-target="#carouselExampleIndicators" 
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button 
+                            class="carousel-control-next" 
+                            type="button" 
+                            data-bs-target="#carouselExampleIndicators" 
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            <div class="col-md-1"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================== -->
+    <!--                INTRO               -->
+    <!-- ================================== -->
+
+    <section class="w-50  mx-auto text-center pt-5" id="intro">
+  
+        <h1 class="p-3 fs-2 border-top  border-3">Une Restaurant unique a votre service<span class="text-primary"> Restautant Marcelita</span></h1>
+        
+        <p class="p-3 fs-4"><span class=" text-primary " >Restautant Marcelita </span>un monde de saveurs péruviennes, dans d'exquises spécialités péruviennes pour les palais français les plus exigeants.</p>
+    </section>
+
+    <!-- ================================== -->
+    <!--           SECCTION MENU             -->
+    <!-- ================================== -->
+
+    <section id="menu">
+        <div class=" box-menu container-fluid ms-auto text-center">
+
+            <h1 class="title" >
+                MENU CARTE À 28.50 €
+            </h1> 
+            <hr>
+            <p> <span>3 entrées, 4 plats, 4 fromages ou desserts au choix</span> </p>
+        
+            <h3 class="sub-title">
+                Les entrées
+            </h3> 
+            <p>Pomme de terre à la huancaina</p>
+            <p>Causa au Lima</p>
+            <p>Ceviche de fruits de mer</p>
+        
+            <h3 class="sub-title">
+                Les plats
+            </h3> 
+            <p>Riz avec canard</p>
+            <p>chicharron de cochon</p>
+            <p>Lomito sauté</p>
+            <p>agneau au four</p>
+            <h3 class="sub-title">
+                Les Desserts
+            </h3> 
+            <p>Riz au lait</p>
+            <p>Masamorra violet</p>
+            <p>Picarones</p>
+
+    </section>
+
+   
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
